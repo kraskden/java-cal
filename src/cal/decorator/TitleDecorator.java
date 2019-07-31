@@ -1,6 +1,6 @@
-package cal.decorators;
+package cal.decorator;
 
-import cal.models.IModel;
+import cal.model.IModel;
 import cal.utils.TextFormatter;
 
 import java.util.ArrayList;

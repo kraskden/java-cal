@@ -1,13 +1,13 @@
-package cal.calendars;
+package cal.calendar;
 
-import cal.decorators.MYTitleDecorator;
-import cal.models.*;
+import cal.decorator.MYTitleDecorator;
+import cal.model.container.HorizontalContainer;
 import cal.utils.TextFormatter;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
 
-public class ThreeMonthCalendar extends RowAssembler {
+public class ThreeMonthCalendar extends HorizontalContainer {
 
     public ThreeMonthCalendar() {
         super();

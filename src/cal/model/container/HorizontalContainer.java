@@ -1,16 +1,12 @@
-package cal.models;
+package cal.model.container;
+
+import cal.model.IModel;
 
 import java.util.ArrayList;
 
-public class RowAssembler implements IModel {
+public class HorizontalContainer extends Container {
 
-    private static final String DELIM = "   ";
-
-    private ArrayList<IModel> models = new ArrayList<>();
-
-    public void add(IModel model) {
-        models.add(model);
-    }
+    protected static final String DELIM = "   ";
 
     @Override
     public ArrayList<String> getRawData() {

@@ -1,11 +1,12 @@
 package cal;
 
-import cal.calendars.*;
-import cal.models.IModel;
+import cal.calendar.*;
+
+import java.time.Year;
 
 public class Main {
     public static void main(String[] args) {
-        IModel cal = new ThreeMonthCalendar();
+        YearCalendar cal = new YearCalendar(2019);
         System.out.println(cal);
     }
 }

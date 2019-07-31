@@ -1,6 +1,6 @@
-package cal.decorators;
+package cal.decorator;
 
-import cal.models.IMonthModel;
+import cal.model.IMonthModel;
 
 import java.time.Month;
 import java.time.format.TextStyle;

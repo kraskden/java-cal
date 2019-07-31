@@ -1,4 +1,4 @@
-package cal.calendars;
+package cal.calendar;
 
 import java.time.LocalDate;
 

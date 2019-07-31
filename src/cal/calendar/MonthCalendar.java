@@ -1,8 +1,8 @@
-package cal.calendars;
+package cal.calendar;
 
-import cal.decorators.MYTitleDecorator;
-import cal.models.IModel;
-import cal.models.MonthModel;
+import cal.decorator.MYTitleDecorator;
+import cal.model.IModel;
+import cal.model.MonthModel;
 import cal.utils.TextFormatter;
 
 import java.util.ArrayList;
