@@ -25,6 +25,8 @@ public class TableContainer extends Container {
                 row = new HorizontalContainer();
             }
         }
+        if (row.models.size() > 0)
+            table.add(row);
         return table.getRawData();
     }
 

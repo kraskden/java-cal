@@ -16,13 +16,13 @@ public class YearCalendar extends TableContainer implements IYearModel {
     public YearCalendar(int year) {
         super(DEF_COLS);
         this.year = year;
+        for (int i = 1; i <= 12; ++i) {
+            add(new MTitleDecorator(new MonthCalendar(i, year)));
+        }
     }
 
     @Override
     public String toString() {
-        for (int i = 1; i <= 12; ++i) {
-            add(new MTitleDecorator(new MonthCalendar(i, year)));
-        }
         IModel cal = new YTitleDecorator(this);
         return TextFormatter.stringListToString(cal.getRawData());
     }
